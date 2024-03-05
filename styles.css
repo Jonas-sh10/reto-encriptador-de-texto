@@ -1,0 +1,117 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el contenido principal */
+main {
+    max-width: 1000px;
+    width: 90%;
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+/* Estilos para los contenedores izquierdo y derecho */
+.container-left,
+.container-right {
+    width: 48%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Estilo específico para el contenedor izquierdo */
+.container-left {
+    margin-right: 10px;
+}
+
+/* Estilo específico para el contenedor derecho */
+.container-right {
+    margin-left: 10px;
+    position: relative;
+}
+
+/* Estilos para las imágenes dentro del contenedor derecho */
+.container-right img {
+    max-width: 100%;
+}
+
+/* Estilos para los párrafos dentro del contenedor derecho */
+/* Estilos para los párrafos dentro del contenedor derecho */
+p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para las imágenes dentro del contenedor derecho */
+.container-right img {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el segundo artículo */
+.second-article {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el textarea */
+textarea {
+    width: calc(100% - 40px);
+    height: 200px;
+    box-sizing: border-box;
+    resize: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Estilos para los botones */
+button {
+    width: calc(50% - 10px);
+    padding: 12px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    color: #E9ECF8;
+    background-color: #0A3871;
+}
+
+/* Estilos para el estado oculto */
+.oculto {
+    display: none;
+}

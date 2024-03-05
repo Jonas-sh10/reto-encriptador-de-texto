@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <h1>Encriptador</h1> -->
+    <main>
+        <article class="container-left">
+            <section>
+                <img src="./imagenes/Logo.png" alt="Logo">
+            </section>
+            <section>
+                <textarea name="" id="textointroducido" cols="30" rows="10" placeholder="Ingresa el texto aqui" required></textarea>
+            </section>
+            <section>
+                <p>⚠ Solo letras minúsculas y sin acentos</p>
+                <button id="botonencriptar">Encriptar!</button>
+                <button id="botondesencriptar">Desencriptar!</button>
+            </section>
+        </article>
+        <article class="container-right first-article" id="first-article">
+            <img src="./imagenes/Munieco.png" alt="Imagen Buscador">
+            <p>Ningun mensaje fue encontrado</p>
+            <p>Ingrese el texto que desees encriptar o desencriptar</p>
+        </article>
+        <article class="container-right second-article oculto" id="second-article">
+            <section>
+                <textarea name="" id="mostrartexto" cols="30" rows="10" readonly></textarea>
+            </section>
+            <section>
+                <button id="botoncopiar">Copiar</button>
+                <button id="botonnuevo">Nuevo</button>
+            </section>
+        </article>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
