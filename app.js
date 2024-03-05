@@ -1,12 +1,3 @@
-/* background-color: #F3F5FC; */
-//Evento para encriptar el texto
-// .oculto {
-//     visibility: hidden; /* Mantener el espacio ocupado pero hacerlo invisible */
-// }
-
-// .visible {
-//     visibility: visible; /* Hacer visible */
-// }
 let botonEncriptar = document.getElementById('botonencriptar');
 botonEncriptar.addEventListener('click', (event) => {
     let textoIntroducido = document.getElementById('textointroducido').value;
